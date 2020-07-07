@@ -1,0 +1,17 @@
+name: rod
+# version: "dynamic"
+author: Proware Inc.
+about: MDW rod.
+args:
+    - version:
+        long: version
+        about: Shows version
+
+    - verbose:
+        short: v
+        multiple: true
+        about: Sets the level of verbosity
+
+subcommands:
+    - daemon:
+        about: serve in background
